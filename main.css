@@ -1,0 +1,147 @@
+body {
+    background-color: #1d1c1c;
+}
+
+h1 a {
+    color: #09e552;
+    font-size: 180%;
+    font-weight: bold;
+    text-decoration:solid;
+    font-style: italic;
+   
+    
+}
+
+h2 {
+    color: #fff;
+} 
+
+header .navbar-nav {
+    color: #fff;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link {
+    text-align: center;
+    color: #fff;
+}
+
+header .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+
+
+.nav-item {
+    padding: 15px;
+}
+
+section {
+    padding-top: 80px;
+}
+
+.tab-content{
+    background:linear-gradient(0deg, rgba(26, 66, 13, 0.351) 0%, rgba(51, 140, 29, 0.175) 100%);
+    border-radius: 5px;
+}
+
+#contato {
+    margin-bottom: 56px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+   
+     background: linear-gradient(0deg, rgba(26, 66, 13, 0.462) 0%, rgba(51, 140, 29, 0.377) 100%);
+    max-height: 100px;
+    z-index: 1000;
+}
+
+#cabecalho #usuario {
+    width: 300px;
+}
+
+.carousel .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 24px;
+}
+
+.card img {
+    height: 400px;
+}
+
+.lista-de-botoes {
+    list-style: none;
+    margin-right: 8px;
+}
+
+.lista-de-botoes #botao-tocar {
+    width: 100px;
+}
+
+#sobre .tab-content {
+    height: 400px;
+    color: #fff;
+}
+
+form label {
+    color: #fff;
+}
+
+footer {
+    
+    background: linear-gradient(0deg, rgba(26, 66, 13, 0.462) 0%, rgba(51, 140, 29, 0.377) 100%);
+    max-height: 100px;
+    color: #fff;
+    padding: 26px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: all ease .1s;
+}   
+
+footer p a:hover {
+    border-top: 4px solid rgb(4, 94, 44);
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 450px
+    }
+
+    .card img {
+        height: 400px;
+    }
+    
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px;
+    }
+}
